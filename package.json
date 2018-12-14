@@ -1,5 +1,5 @@
 {
-  "name": "WhoKnows v1",
+  "name": "whoknowsv1",
   "version": "1.0.0",
   "description": "thewhoknows.com",
   "author": "imgermi",
@@ -15,6 +15,12 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
   }
 }

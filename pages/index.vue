@@ -1,66 +1,35 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        WhoKnows v1
-      </h1>
-      <h2 class="subtitle">
-        thewhoknows.com
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+  <main>
+  	<Top/>
+  	<section class="hero">
+  		<div class="container">
+  			<div class="hero__content">
+  				<h1>Identificamos lo que te separa de tus clientes.</h1>
+  				<h2>Somos una agencia digital. Hacemos propuestas digitales para escalar tu negocio.</h2>
+  			</div>
+  			<article class="hero__img"></article>
+  		</div>
+  	</section>
+  	<section class="banda">
+  		<div class="container">
+  			
+  		</div>
+  	</section>
+    <Contact/>
+    <Foot/>
+  </main>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Top from '~/components/Top.vue'
+import Contact from '~/components/Contact.vue'
+import Foot from '~/components/Foot.vue'
 
 export default {
   components: {
-    Logo
+    Top,
+    Contact,
+    Foot
   }
-}
+};
 </script>
-
-<style>
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

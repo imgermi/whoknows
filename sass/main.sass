@@ -1,0 +1,53 @@
+@import 'colors.sass'
+@import 'components/top.sass'
+@import 'components/prefooter.sass'
+@import 'components/foot.sass'
+@import 'typography.sass'
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+body
+	background: #F1F1F1
+	color: $lightBlack
+	font-size: 16px
+	font-family: zenon, sans-serif
+	font-weight: 400
+	line-height: 24px
+
+.container
+	max-width: 1000px
+	margin-left: auto
+	margin-right: auto
+	padding: 0 15px
+	position: relative
+
+.btn
+	background: $blue
+	box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15)
+	color: #f5f5f5
+	font-weight: 700
+	padding: 8px 32px
+	text-align: center
+	text-decoration: none
+
+.hero
+	background: $blue
+	.container
+		padding-top: 200px
+		padding-bottom: 100px
+	&__img
+		background: $orange
+		height: 110%
+		width: 50%
+		position: absolute
+		top: 0
+		right: -25px
+		border-radius: 0px 0px 4px 4px
+		box-shadow: 4px 4px 20px rgba(78, 78, 78, 0.2)
+
+.banda
+	padding: 40px 0
+	

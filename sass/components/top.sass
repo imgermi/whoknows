@@ -1,0 +1,41 @@
+// main: ../main.sass
+
+header
+	left: 0
+	padding: 40px 0
+	position: absolute
+	top: 0
+	width: 100%
+	z-index: 10
+	.container
+		display: flex
+		justify-content: space-between
+	nav
+		ul
+			list-style-type: none
+			display: flex
+			li
+				padding: 0 17px
+				&:last-of-type
+					padding-right: 0
+				a
+					color: #fff
+					text-decoration: none
+					display: block
+					position: relative
+					&:before
+						content: ''
+						width: 100%
+						height: 2px
+						display: block
+						background: $blue
+						position: absolute
+						left: 0
+						bottom: -5px
+						transition: all 150ms ease-in-out
+						opacity: 0
+						transform: translateY(2px)
+					&:hover
+						&:before
+							opacity: 1
+							transform: translateY(0)
