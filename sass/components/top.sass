@@ -11,18 +11,37 @@ header
 		display: flex
 		justify-content: space-between
 	nav
+		.hamburger
+			display: none
+			color: #fff
+			@media(max-width: 767px)
+				display: block
 		ul
 			list-style-type: none
 			display: flex
+			@media(max-width: 767px)
+				display: block
+				opacity: 0
+				pointer-events: none
+				background: #fff
+				border-radius: 4px
+				position: absolute
+				right: 15px
+				top: 25px
+				padding: 15px 10px
 			li
 				padding: 0 17px
 				&:last-of-type
 					padding-right: 0
+				@media(max-width: 767px)
+					padding: 5px 20px
 				a
 					color: #fff
 					text-decoration: none
 					display: block
 					position: relative
+					@media(max-width: 767px)
+						color: $lightBlack
 					&:before
 						content: ''
 						width: 100%
@@ -36,6 +55,10 @@ header
 						opacity: 0
 						transform: translateY(2px)
 					&:hover
+						&:before
+							opacity: 1
+							transform: translateY(0)
+					&.nuxt-link-exact-active
 						&:before
 							opacity: 1
 							transform: translateY(0)
