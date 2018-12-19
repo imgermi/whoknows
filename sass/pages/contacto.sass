@@ -1,0 +1,102 @@
+// main: ../main.sass
+
+.contacto
+	.hero
+		margin-bottom: 200px
+		&__content
+			padding-left: 0
+			margin: 0
+			width: 50%
+		&__img
+			width: 50%
+			height: auto
+	form
+		padding: 500px 80px 80px
+		.group 			   
+		  position: relative 
+		  margin-bottom: 45px 
+		input, textarea
+		  font-size: 20px
+		  padding: 10px 10px 10px 5px
+		  display: block
+		  width: 100%
+		  border: none
+		  border-bottom: 1px solid #757575
+		  background: transparent
+		  border: none
+		  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+		  color: #fff
+		  &:focus
+				outline: none 
+		label 				 
+		  color: #fff 
+		  font-size: 18px
+		  font-weight: normal
+		  position: absolute
+		  pointer-events: none
+		  left: 5px
+		  top: 10px
+		  transition: 0.2s ease all 
+		  -moz-transition: 0.2s ease all 
+		  -webkit-transition: 0.2s ease all
+		/* active state */
+		input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label 		
+		  top: -20px
+		  font-size: 15px
+		  color: rgba(255, 255, 255, 0.7)
+	.bar
+		position: relative
+		display: block
+		width: 100%
+		&:before, &:after 	
+		  content: ''
+		  height: 2px 
+		  width: 0
+		  bottom: 0px 
+		  position: absolute
+		  background: $blue
+		  transition: 0.2s ease all 
+		  -moz-transition: 0.2s ease all 
+		  -webkit-transition: 0.2s ease all
+		&:before 
+	  	left: 50%
+		&:after 
+	  	right: 50% 
+	/* active state */
+	input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~ .bar:before, textarea:focus ~ .bar:after
+	  width: 50%
+	.highlight 
+	  position: absolute
+	  height: 60% 
+	  width: 100%
+	  top: 25% 
+	  left: 0
+	  pointer-events: none
+	  opacity: 0.1
+	input:focus ~ .highlight, textarea:focus ~ .highlight
+	  -webkit-animation: inputHighlighter 0.3s ease
+	  -moz-animation: inputHighlighter 0.3s ease
+	  animation: inputHighlighter 0.3s ease
+	
+ // ANIMATIONS
+@-webkit-keyframes inputHighlighter 
+	from
+		background: #5264AE 
+  to
+  	width: 0 
+  	background: transparent 
+
+@-moz-keyframes inputHighlighter 
+	from
+	 background: #5264AE 
+  to
+  	width: 0
+  	background: transparent 
+
+@keyframes inputHighlighter 
+	from
+	 background: #5264AE 
+  to
+   width: 0
+   background: transparent 
+	

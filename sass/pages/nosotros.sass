@@ -1,0 +1,109 @@
+// main: ../main.sass
+
+.nosotros
+	&__intro
+		.container
+			display: flex
+			align-items: center
+			justify-content: space-between
+			@media(max-width: 767px)
+				display: block
+			article
+				width: 50%
+				@media(max-width: 767px)
+					width: 100%
+				&:nth-child(2)
+					padding-left: 100px
+					@media(max-width: 991px)
+						padding-left: 50px
+					@media(max-width: 767px)
+						padding-left: 0
+			img
+				display: block
+				margin: 0
+				width: 100%
+				@media(max-width: 767px)
+					margin-bottom: 20px
+	&__servicios
+		.container
+			> div
+				display: flex
+				justify-content: center
+				flex-wrap: wrap
+				margin: -10px
+				article
+					width: calc(33.3% - 20px)
+					margin: 10px
+					background: #fff
+					box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05)
+					padding: 40px 30px
+					@media(max-width: 991px)
+						width: calc(50% - 20px)
+					@media(max-width: 767px)
+						width: calc(100% - 20px)
+						max-width: 320px
+						padding: 35px 20px
+					img
+						display: block
+						margin: 0
+					h6
+						font-weight: 600
+						line-height: normal
+						font-size: 20px
+						color: #061A40
+						margin: 10px 0 15px
+					ul
+						list-style-type: none
+						li:not(:last-of-type)
+							margin-bottom: 5px
+	&__team
+		.container
+			> div
+				display: flex
+				align-items: flex-start
+				justify-content: center
+				@media(max-width: 767px)
+					display: block
+				article
+					text-align: center
+					width: 36%
+					margin: 0 40px
+					@media(max-width: 767px)
+						width: 100%
+						margin: auto
+						max-width: 360px
+						&:first-of-type
+							margin-bottom: 40px
+					img.pp
+						box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.07)
+						border-radius: 50%
+						display: inline-block
+						margin-bottom: 20px
+						width: 150px
+					h5
+						font-weight: 600
+						line-height: 25px
+						font-size: 20px
+						color: $blue
+						margin-bottom: 5px
+					span
+						font-weight: normal
+						line-height: 25px
+						font-size: 20px
+						display: block
+						margin-bottom: 20px
+					p
+						margin-bottom: 15px
+						color: $black
+					ul
+						list-style-type: none
+						display: flex
+						justify-content: center
+						align-items: center
+						li
+							padding: 0 12px
+							a
+								display: block
+								transition: all 200ms ease-in
+								&:hover
+									opacity: 0.4
