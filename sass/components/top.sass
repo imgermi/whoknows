@@ -7,9 +7,12 @@ header
 	top: 0
 	width: 100%
 	z-index: 10
+	@media(max-width: 767px)
+		padding: 30px 0
 	.container
 		display: flex
 		justify-content: space-between
+		align-items: center
 	nav
 		.hamburger
 			display: none
@@ -27,14 +30,27 @@ header
 				border-radius: 4px
 				position: absolute
 				right: 15px
-				top: 25px
-				padding: 15px 10px
+				left: 15px
+				top: 55px
+				padding: 55px 10px
+				box-shadow: 0 50px 100px -20px rgba(50,50,93,.25), 0 30px 60px -30px rgba(0,0,0,.3)
+				width: calc(100% - 30px)
+				text-align: center
+				transition-duration: .25s
+				transition-property: transform,opacity
+				will-change: transform,opacity
+				transform-origin: 100% 0
+				transform: scale(.95)
+				&.is-active
+					opacity: 1
+					pointer-events: all
+					transform: none
 			li
 				padding: 0 17px
 				&:last-of-type
 					padding-right: 0
 				@media(max-width: 767px)
-					padding: 5px 20px
+					padding: 10px 0
 				a
 					color: #fff
 					text-decoration: none
@@ -42,6 +58,7 @@ header
 					position: relative
 					@media(max-width: 767px)
 						color: $lightBlack
+						font-size: 20px
 					&:before
 						content: ''
 						width: 100%
@@ -54,11 +71,85 @@ header
 						transition: all 150ms ease-in-out
 						opacity: 0
 						transform: translateY(2px)
+						@media(max-width: 767px)
+							display: none
 					&:hover
 						&:before
 							opacity: 1
 							transform: translateY(0)
 					&.nuxt-link-exact-active
+						@media(max-width: 767px)
+							color: $blue
 						&:before
 							opacity: 1
 							transform: translateY(0)
+
+// Hamburger
+.hamburger 
+  padding: 10px 0
+  display: inline-block
+  cursor: pointer
+  transition-property: opacity, filter
+  transition-duration: 0.15s
+  transition-timing-function: linear
+  font: inherit
+  color: inherit
+  text-transform: none
+  background-color: transparent
+  border: 0
+  margin: 0
+  overflow: visible
+  &:focus
+  	outline: 0
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after 
+    background-color: #000 
+
+.hamburger-box 
+  width: 40px
+  height: 24px
+  display: inline-block
+  position: relative 
+
+.hamburger-inner 
+  display: block
+  top: 50%
+  margin-top: -2px 
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after 
+  width: 40px
+  height: 4px
+  background-color: $orange
+  border-radius: 4px
+  position: absolute
+  transition-property: transform
+  transition-duration: 0.15s
+  transition-timing-function: ease 
+.hamburger-inner::before, .hamburger-inner::after 
+  content: ""
+  display: block 
+.hamburger-inner::before 
+  top: -10px 
+.hamburger-inner::after 
+  bottom: -10px 
+
+.hamburger--spin .hamburger-inner 
+  transition-duration: 0.22s
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19) 
+.hamburger--spin .hamburger-inner::before 
+  transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in 
+.hamburger--spin .hamburger-inner::after 
+  transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19) 
+
+.hamburger--spin.is-active .hamburger-inner 
+  transform: rotate(225deg)
+  transition-delay: 0.12s
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1) 
+.hamburger--spin.is-active .hamburger-inner::before 
+  top: 0
+  opacity: 0
+  transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out 
+.hamburger--spin.is-active .hamburger-inner::after 
+  bottom: 0
+  transform: rotate(-90deg)
+  transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1) 

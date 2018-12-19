@@ -39,6 +39,14 @@ body
 	padding: 8px 32px
 	text-align: center
 	text-decoration: none
+	transition: all 200ms ease-in
+	&:hover
+		background: $orange
+		transform: translateY(-1px)
+		box-shadow: 4px 5px 16px rgba(0, 0, 0, 0.25)
+	&:active
+		transform: translateY(1px)
+		box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15)
 
 .hero
 	background: $blue
@@ -49,6 +57,10 @@ body
 	// overflow: hidden
 	@media(max-width: 767px)
 		padding-top: 200px
+		height: auto
+		max-height: 100%
+		padding-bottom: 60px
+		margin: 0
 	.container
 		height: inherit
 		display: flex
@@ -56,18 +68,21 @@ body
 		align-items: center
 		@media(max-width: 767px)
 			display: block
+			height: auto
 	&__img
-		background: #FF9560
 		height: 110%
 		width: 60%
 		top: 0
 		border-radius: 0px 0px 4px 4px
+		background-color: $orange
 		box-shadow: 4px 4px 20px rgba(78, 78, 78, 0.2)
+		background-size: cover
+		background-position: center center
+		background-repeat: no-repeat
 		z-index: 5
 		// margin-right: -50px
 		@media(max-width: 767px)
-			height: auto
-			width: 100%
+			display: none
 	&__content
 		left: 15px
 		width: 100%

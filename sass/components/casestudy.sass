@@ -3,6 +3,15 @@
 .caseStudy
 	position: relative
 	box-shadow: 4px 4px 15px rgba(126, 126, 126, 0.2)
+	transition: all 250ms ease-in-out
+	&:hover
+		transform: translateY(-1px)
+		box-shadow: 4px 6px 30px rgba(126, 126, 126, 0.4)
+		&:before
+			background: rgba($orange, 0.10)
+		.caseStudy__text
+			&:after
+				background: $blue
 	&:before
 		content: ''
 		display: block
@@ -13,6 +22,7 @@
 		left: 0
 		top: 0
 		pointer-events: none
+		transition: all 250ms ease-in-out
 	a
 		display: block
 	img
@@ -26,6 +36,11 @@
 		background: #fff
 		padding: 20px 25px
 		width: 50%
+		@media(max-width: 991px)
+			width: 70%
+		@media(max-width: 767px)
+			width: 85%
+			padding: 15px 20px
 		&:after
 			display: block
 			content: ''
@@ -35,16 +50,21 @@
 			position: absolute
 			right: 15px
 			top: 50%
-			transform: translateX(-50%)
+			transform: translateY(-50%)
 			background: $orange
+			transition: all 250ms ease-in-out
 		&--h
-			font-size: 20px
+			font-size: 18px
 			color: $black
 			display: block
 			font-weight: 600
 			line-height: 25px
+			@media(max-width: 767px)
+				font-size: 16px
 		&--sub
-			font-size: 20px
+			font-size: 18px
 			display: block
 			color: $lightBlack
 			line-height: 25px
+			@media(max-width: 767px)
+				font-size: 16px

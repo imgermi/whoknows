@@ -1,12 +1,18 @@
 // main: ../main.sass
 
 .index
+	.hero
+		&__img
+			box-shadow: inset 0 0 0 355px rgba($orange, 0.8)
+			background-image: url('~assets/images/hero/index.jpg')
 	.faq
 		display: flex
 		flex-wrap: wrap
 		max-width: 660px
 		margin: auto
 		list-style-type: none
+		@media(max-width: 767px)
+			display: block
 		li
 			width: calc(50% - 30px)
 			font-size: 18px
@@ -15,6 +21,11 @@
 			margin-left: 15px
 			margin-right: 15px
 			position: relative
+			@media(max-width: 767px)
+				margin-left: auto
+				margin-right: auto
+				width: 100%
+				max-width: 330px
 			&:before
 				content: ''
 				display: block
@@ -32,6 +43,10 @@
 		position: relative
 		padding-bottom: 130px
 		margin-bottom: 30px
+		margin-top: 15px
+		@media(max-width: 767px)
+			br
+				display: none
 		&:after
 			content: ''
 			display: block
@@ -46,10 +61,19 @@
 		display: flex
 		align-items: flex-start
 		margin-bottom: 40px
+		@media(max-width: 767px)
+			display: block
 		.caseStudy
 			width: 50%
+			@media(max-width: 767px)
+				width: 100%
+				max-width: 400px
+				margin: auto
 			&:nth-child(2)
-				margin-top: 60px
+				margin-top: 50px
+				@media(max-width: 767px)
+					margin-top: 20px
+
 	&__nosotros
 		&--content
 			padding-top: 143px
@@ -58,6 +82,15 @@
 			position: relative
 			padding-right: 27%
 			margin-bottom: 75px
+			@media(max-width: 991px)
+				margin-bottom: 30px
+			@media(max-width: 767px)
+				padding-left: 25px
+				padding-top: 40px
+				padding-right: 25px
+				padding-bottom: 200px
+			@media(max-width: 479px)
+				padding-bottom: 150px
 			&:before
 				content: ''
 				display: block
@@ -68,6 +101,8 @@
 				top: 0
 				left: 0
 				z-index: -1
+				@media(max-width: 767px)
+					width: 100%
 			&:after
 				content: ''
 				display: block
@@ -80,3 +115,10 @@
 				position: absolute
 				right: 0
 				bottom: -75px
+				@media(max-width: 991px)
+					width: 430px
+					height: 325px
+				@media(max-width: 767px)
+					width: 100%
+				@media(max-width: 479px)
+					height: 240px
