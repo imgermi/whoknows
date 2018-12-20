@@ -7,7 +7,9 @@
   				<h1 class="h__hero">Identificamos lo que te <br> separa de tus clientes.</h1>
   				<h2 class="sub__hero">Somos una agencia digital. Hacemos propuestas <br> digitales para escalar tu negocio.</h2>
   			</div>
-  			<article class="hero__img"></article>
+  			<article class="hero__img">
+          <img src="~assets/images/hero/index-responsive.jpg" alt="">
+        </article>
   		</div>
   	</section>
   	<section class="banda banda-first">

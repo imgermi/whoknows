@@ -1,0 +1,49 @@
+// main: ../main.sass
+
+.trabajo
+	background: #fff
+	header nav ul li a:before
+		background: $orange
+	.hero
+		height: auto
+		padding: 300px 0 80px
+		margin: 0
+		.container
+			display: block
+		&__content
+			padding: 0
+	&__banner
+		img
+			display: block
+			width: 100%
+	.row
+		display: flex
+	.col-6
+		width: 50%
+	&__text
+		&--h
+			font-style: normal
+			font-weight: 600
+			line-height: 41px
+			font-size: 32px
+			color: $black
+		&--p
+			margin-bottom: 20px
+			line-height: 27px
+			&:last-of-type
+				margin-bottom: 30px
+		&--tasks
+			list-style-type: none
+			margin-top: 35px
+			padding-right: 200px
+			p
+				font-weight: 600
+				font-size: 20px
+				color: $black
+				margin-bottom: 15px
+			li
+				font-size: 20px
+				border-bottom: 1px solid rgba(6, 26, 64, 0.4)
+				padding-bottom: 10px
+				&:not(:last-of-type)
+					margin-bottom: 15px
