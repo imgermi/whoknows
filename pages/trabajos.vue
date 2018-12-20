@@ -10,9 +10,48 @@
   			<article class="hero__img"></article>
   		</div>
   	</section>
-  	<section class="banda">
+  	<section class="banda banda-first banda-last">
   		<div class="container">
-  			
+  			<article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
+            <h5 class="h__section">Legister</h5>
+            <p class="caseStudy-xl__content--p">Una web/mobile app y una campaña de lanzamiento para una fundación Argentina enfocada en el ámbito jurídico.</p>
+            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/legister/mock.jpg" alt="">
+          </nuxt-link>
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
+            <h5 class="h__section">MRU</h5>
+            <p class="caseStudy-xl__content--p">Una estrategia de Shopify para una tienda online de Mexico, basada en optimizar ventas y explotar la inversión de Facebook Ads con funnels de conversión.</p>
+            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/mru/mock.jpg" alt="">
+          </nuxt-link>
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
+            <h5 class="h__section">Vendexa</h5>
+            <p class="caseStudy-xl__content--p">Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.</p>
+            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/vendexa/mock.jpg" alt="">
+          </nuxt-link>
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
+            <h5 class="h__section">StandUpWeb</h5>
+            <p class="caseStudy-xl__content--p">Un curso online de Stand Up Comedy, para un pionero del género en Argentina.</p>
+            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/standupweb/mock.jpg" alt="">
+          </nuxt-link>
+        </article>                
   		</div>
   	</section>
     <Contact/>

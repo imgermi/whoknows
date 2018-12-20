@@ -7,7 +7,7 @@
 <style>
 	body {
 		background: #F1F1F1;
-		color: $lightBlack;
+		color: rgba(6, 26, 64, 0.5);
 		font-size: 16px;
 		font-family: zenon, sans-serif;
 		font-weight: 400;

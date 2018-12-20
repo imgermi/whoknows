@@ -3,18 +3,13 @@
 @import 'components/prefooter.sass'
 @import 'components/foot.sass'
 @import 'components/casestudy.sass'
+@import 'components/casestudy-xl.sass'
 @import 'typography.sass'
 @import 'pages/index.sass'
 @import 'pages/nosotros.sass'
 @import 'pages/contacto.sass'
 
-body
-	background: #F1F1F1
-	color: $lightBlack
-	font-size: 16px
-	font-family: zenon, sans-serif
-	font-weight: 400
-	line-height: 24px
+
 
 .page-enter-active, .page-leave-active 
   transition: all .45s ease-out
@@ -88,7 +83,9 @@ body
 		background-position: center center
 		background-repeat: no-repeat
 		z-index: 5
-		// margin-right: -50px
+		margin-right: -50px
+		@media(max-width: 991px)
+			margin-right: -10px
 		@media(max-width: 767px)
 			display: none
 	&__content

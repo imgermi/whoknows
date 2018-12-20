@@ -1,0 +1,46 @@
+// main: ../main.sass
+
+.caseStudy-xl
+	display: flex
+	align-items: self-start
+	background: #fff
+	box-shadow: 4px 4px 20px rgba(179, 179, 179, 0.25)
+	@media(max-width: 991px)
+		flex-wrap: wrap-reverse
+		max-width: 500px
+		margin: auto
+	&:hover
+		.caseStudy-xl__img
+			&:before
+				background: rgba($orange, 0.10)
+	&:not(:last-of-type)
+		margin-bottom: 80px
+	&__content
+		padding: 30px
+		width: 35%
+		@media(max-width: 991px)
+			width: 100%
+		.h__section
+			margin-bottom: 10px
+		&--p
+			margin-bottom: 20px
+	&__img
+		width: 65%
+		position: relative
+		@media(max-width: 991px)
+			width: 100%
+		&:before
+			content: ''
+			display: block
+			width: 100%
+			height: 100%
+			background: rgba($blue, 0.45)
+			position: absolute
+			left: 0
+			top: 0
+			pointer-events: none
+			transition: all 250ms ease-in-out
+		img
+			display: block
+			width: 100%
+			margin: 0
