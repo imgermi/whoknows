@@ -128,6 +128,12 @@ export default {
     Top,
     Contact,
     Foot
+  },
+  head: {
+    title: 'Nosotros | WhoKnows - Agencia Digital',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlos junto a nuestros clientes.' }
+    ]
   }
 };
 </script>

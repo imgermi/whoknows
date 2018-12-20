@@ -36,7 +36,7 @@
             </nuxt-link>
           </article>
           <article class="caseStudy">
-            <nuxt-link to="/">
+            <nuxt-link to="/trabajos/vendexa">
               <img src="~assets/images/trabajos/vendexa/mock-small.jpg" alt="">
               <div class="caseStudy__text">
                 <p class="caseStudy__text--h">Vendexa</p>
@@ -74,6 +74,12 @@ export default {
     Top,
     Contact,
     Foot
+  },
+  head: {
+    title: 'WhoKnows - Agencia Digital',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital.' }
+    ]
   }
 };
 </script>

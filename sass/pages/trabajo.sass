@@ -18,8 +18,21 @@
 			width: 100%
 	.row
 		display: flex
+		@media(max-width: 767px)
+			display: block
 	.col-6
 		width: 50%
+		@media(max-width: 767px)
+			width: 100%
+		&.left
+			padding-right: 200px
+			@media(max-width: 1199px)
+				padding-right: 150px
+			@media(max-width: 991px)
+				padding-right: 100px
+			@media(max-width: 767px)
+				padding-right: 0
+				margin-bottom: 35px
 	&__text
 		&--h
 			font-style: normal
@@ -35,7 +48,6 @@
 		&--tasks
 			list-style-type: none
 			margin-top: 35px
-			padding-right: 200px
 			p
 				font-weight: 600
 				font-size: 20px
@@ -47,3 +59,39 @@
 				padding-bottom: 10px
 				&:not(:last-of-type)
 					margin-bottom: 15px
+	&__testimonio
+		.container
+			position: relative
+			&:before
+				content: ''
+				height: 1px
+				width: calc(100% - 30px)
+				background: rgba(6, 26, 64, 0.1)
+				position: absolute
+				left: 15px
+				top: 0
+		article
+			max-width: 490px
+			margin: auto
+			padding-top: 80px
+			p
+				font-size: 20px
+				line-height: 31px
+				margin-bottom: 30px
+			figure
+				display: flex
+				align-items: center
+				img
+					display: block
+					margin: 0
+					border-radius: 50%
+					width: 55px
+				figcaption
+					padding-left: 20px
+					span, small
+						display: block
+						font-size: 16px
+						line-height: 21px
+					span
+						color: $black
+

@@ -47,21 +47,27 @@
         </article>
   		</div>
   	</section>
-    <Contact/>
+    <Trabajos/>
     <Foot/>
   </main>
 </template>
 
 <script>
 import Top from '~/components/Top.vue'
-import Contact from '~/components/Contact.vue'
+import Trabajos from '~/components/Trabajos.vue'
 import Foot from '~/components/Foot.vue'
 
 export default {
   components: {
     Top,
-    Contact,
+    Trabajos,
     Foot
+  },
+  head: {
+    title: 'Contacto | WhoKnows - Agencia Digital',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com' }
+    ]
   }
 };
 </script>

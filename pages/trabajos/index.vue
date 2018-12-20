@@ -36,7 +36,7 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">Vendexa</h5>
             <p class="caseStudy-xl__content--p">Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.</p>
-            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+            <nuxt-link to="/trabajos/vendexa" class="btn">Ver caso</nuxt-link>
           </div>
           <nuxt-link to="/" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/vendexa/mock.jpg" alt="">
@@ -69,6 +69,12 @@ export default {
     Top,
     Contact,
     Foot
+  },
+  head: {
+    title: 'Trabajos | WhoKnows - Agencia Digital',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback.' }
+    ]
   }
 };
 </script>
