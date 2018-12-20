@@ -2,21 +2,41 @@
 
 .contacto
 	.hero
-		margin-bottom: 200px
+		margin-bottom: calc(50px + 80px)
+		max-height: 100%
+		height: auto
+		@media (max-width: 767px)
+			padding-bottom: 50px
 		&__content
 			padding-left: 0
 			margin: 0
 			width: 50%
+			padding-right: 25px
+			@media (max-width: 767px)
+				width: 100%
+				padding: 0
+				margin-bottom: 25px
 		&__img
 			width: 50%
 			height: auto
+			margin-bottom: -50px
+			@media (max-width: 767px)
+				display: block
+				width: 100%
+				margin-bottom: -100px
 	form
-		padding: 500px 80px 80px
+		padding: 200px 60px 80px
+		@media(max-width: 991px)
+			padding: 200px 30px 80px
+		@media (max-width: 767px)
+			padding-top: 50px
+		.hidden
+			display: none
 		.group 			   
 		  position: relative 
-		  margin-bottom: 45px 
+		  margin-bottom: 40px 
 		input, textarea
-		  font-size: 20px
+		  font-size: 16px
 		  padding: 10px 10px 10px 5px
 		  display: block
 		  width: 100%
@@ -26,11 +46,16 @@
 		  border: none
 		  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
 		  color: #fff
+		  font-family: zenon, sans-serif
+		  font-weight: 400
+		  outline: none    
+		  -webkit-appearance: none
+		  -moz-appearance: none
 		  &:focus
 				outline: none 
 		label 				 
 		  color: #fff 
-		  font-size: 18px
+		  font-size: 16px
 		  font-weight: normal
 		  position: absolute
 		  pointer-events: none

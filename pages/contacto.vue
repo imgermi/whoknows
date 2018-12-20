@@ -4,11 +4,14 @@
   	<section class="hero">
   		<div class="container">
   			<div class="hero__content">
-  				<h1 class="h__hero">Hola, te <br> estábamos esperando</h1>
+  				<h1 class="h__hero">Hola, te estábamos esperando</h1>
   				<h2 class="sub__hero">Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com</h2>
   			</div>
   			<article class="hero__img">
-          <form action="">
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <div class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </div>
             <div class="group">
               <input type="text" name="nombre" required>
               <span class="highlight"></span>
@@ -34,7 +37,7 @@
               <label>¿Cuál es tu presupuesto aproximado?</label>
             </div>
             <div class="group">
-              <textarea name="mensaje" rows="5" required></textarea>
+              <textarea name="mensaje" rows="3" required></textarea>
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Contanos sobre tu proyecto</label>
@@ -44,7 +47,6 @@
         </article>
   		</div>
   	</section>
-  	<section class="banda"><div class="container"></div></section>
     <Contact/>
     <Foot/>
   </main>
