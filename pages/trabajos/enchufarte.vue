@@ -130,7 +130,7 @@ export default {
   head: {
     title: 'Enchufarte México | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Mezclando raíces históricas con diseño de interiores. Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.' }
+      { hid: 'description', name: 'description', content: 'Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.' }
     ]
   }
 };
