@@ -16,9 +16,9 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">MRU</h5>
             <p class="caseStudy-xl__content--p">Una estrategia de Shopify para una tienda online de Mexico, basada en optimizar ventas y explotar la inversión de Facebook Ads con funnels de conversión.</p>
-            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+            <nuxt-link to="/trabajos/mru" class="btn">Ver caso</nuxt-link>
           </div>
-          <nuxt-link to="/" class="caseStudy-xl__img">
+          <nuxt-link to="/trabajos/mru" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/mru/mock.jpg" alt="">
           </nuxt-link>
         </article>
@@ -28,7 +28,7 @@
             <p class="caseStudy-xl__content--p">Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.</p>
             <nuxt-link to="/trabajos/vendexa" class="btn">Ver caso</nuxt-link>
           </div>
-          <nuxt-link to="/" class="caseStudy-xl__img">
+          <nuxt-link to="/trabajos/vendexa" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/vendexa/mock.jpg" alt="">
           </nuxt-link>
         </article>

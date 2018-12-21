@@ -88,7 +88,7 @@
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
 				<div class="index__trabajos">
 				  <article class="caseStudy">
-				    <nuxt-link to="/">
+				    <nuxt-link to="/trabajos/mru">
 				      <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
 				      <div class="caseStudy__text">
 				        <p class="caseStudy__text--h">MRU</p>
@@ -97,7 +97,7 @@
 				    </nuxt-link>
 				  </article>
 				  <article class="caseStudy">
-				    <nuxt-link to="/">
+				    <nuxt-link to="/trabajos/vendexa">
 				      <img src="~assets/images/trabajos/vendexa/mock-small.jpg" alt="">
 				      <div class="caseStudy__text">
 				        <p class="caseStudy__text--h">Vendexa</p>
