@@ -12,16 +12,6 @@
   	</section>
   	<section class="banda banda-first banda-last">
   		<div class="container">
-  			<article class="caseStudy-xl">
-          <div class="caseStudy-xl__content">
-            <h5 class="h__section">Legister</h5>
-            <p class="caseStudy-xl__content--p">Una web/mobile app y una campaña de lanzamiento para una fundación Argentina enfocada en el ámbito jurídico.</p>
-            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
-          </div>
-          <nuxt-link to="/" class="caseStudy-xl__img">
-            <img src="~assets/images/trabajos/legister/mock.jpg" alt="">
-          </nuxt-link>
-        </article>
         <article class="caseStudy-xl">
           <div class="caseStudy-xl__content">
             <h5 class="h__section">MRU</h5>
@@ -44,14 +34,24 @@
         </article>
         <article class="caseStudy-xl">
           <div class="caseStudy-xl__content">
-            <h5 class="h__section">StandUpWeb</h5>
-            <p class="caseStudy-xl__content--p">Un curso online de Stand Up Comedy, para un pionero del género en Argentina.</p>
-            <nuxt-link to="/" class="btn">Ver caso</nuxt-link>
+            <h5 class="h__section">Enchufarte</h5>
+            <p class="caseStudy-xl__content--p">Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.</p>
+            <nuxt-link to="/trabajos/enchufarte" class="btn">Ver caso</nuxt-link>
           </div>
-          <nuxt-link to="/" class="caseStudy-xl__img">
-            <img src="~assets/images/trabajos/standupweb/mock.jpg" alt="">
+          <nuxt-link to="/trabajos/enchufarte" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/enchufarte/mock.jpg" alt="">
           </nuxt-link>
-        </article>                
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
+            <h5 class="h__section">Legister</h5>
+            <p class="caseStudy-xl__content--p">Una web/mobile app y una campaña de lanzamiento para una fundación Argentina enfocada en el ámbito jurídico.</p>
+            <nuxt-link to="" class="btn disabled">Proximamente</nuxt-link>
+          </div>
+          <nuxt-link to="" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/legister/mock.jpg" alt="">
+          </nuxt-link>
+        </article>
   		</div>
   	</section>
     <Contact/>

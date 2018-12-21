@@ -52,6 +52,13 @@
 	&:active
 		transform: translateY(1px)
 		box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15)
+	&.disabled
+		opacity: 0.7
+		cursor: default
+		&:hover
+			background: $blue
+			transform: translateY(0)
+			box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15)
 
 .hero
 	background: $blue

@@ -44,6 +44,8 @@
 			line-height: 27px
 			&:last-of-type
 				margin-bottom: 30px
+			strong
+				color: $black
 		&--tasks
 			list-style-type: none
 			margin-top: 35px
@@ -68,11 +70,11 @@
 				background: rgba(6, 26, 64, 0.1)
 				position: absolute
 				left: 15px
-				top: 0
+				bottom: 0
 		article
 			max-width: 490px
 			margin: auto
-			padding-top: 80px
+			padding-bottom: 80px
 			p
 				font-size: 20px
 				line-height: 31px
@@ -93,4 +95,17 @@
 						line-height: 21px
 					span
 						color: $black
+
+.trabajo
+	&.enchufarte
+		.col-6
+			&.left
+				padding-right: 180px
+				@media(max-width: 1199px)
+					padding-right: 150px
+				@media(max-width: 991px)
+					padding-right: 100px
+				@media(max-width: 767px)
+					padding-right: 0
+					margin-bottom: 35px
 

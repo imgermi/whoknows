@@ -27,20 +27,20 @@
         <h3 class="h__section text-center">Un caso, una solución</h3>
         <div class="index__trabajos">
           <article class="caseStudy">
-            <nuxt-link to="/">
-              <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
-              <div class="caseStudy__text">
-                <p class="caseStudy__text--h">MRU</p>
-                <span class="caseStudy__text--sub">Ecommerce, Ads</span>
-              </div>
-            </nuxt-link>
-          </article>
-          <article class="caseStudy">
             <nuxt-link to="/trabajos/vendexa">
               <img src="~assets/images/trabajos/vendexa/mock-small.jpg" alt="">
               <div class="caseStudy__text">
                 <p class="caseStudy__text--h">Vendexa</p>
                 <span class="caseStudy__text--sub">Diseño, Ecommerce</span>
+              </div>
+            </nuxt-link>
+          </article>
+          <article class="caseStudy">
+            <nuxt-link to="/trabajos/enchufarte">
+              <img src="~assets/images/trabajos/enchufarte/mock-small.jpg" alt="">
+              <div class="caseStudy__text">
+                <p class="caseStudy__text--h">Enchufarte</p>
+                <span class="caseStudy__text--sub">Ads, Ecommerce</span>
               </div>
             </nuxt-link>
           </article>
