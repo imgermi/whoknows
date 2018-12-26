@@ -4,7 +4,7 @@
 		<section class="hero">
 			<div class="container">
 				<div class="hero__content">
-					<h1 class="h__hero">Vendexa</h1>
+					<h1 class="h__hero">Vendexa Interiores</h1>
 					<h2 class="sub__hero">Mezclando raíces históricas con diseño de interiores</h2>
 				</div>
 			</div>
@@ -87,7 +87,7 @@
 				<img src="~assets/images/trabajos/vendexa/devices.jpg" alt="Vendexa Interiores">
 			</div>
 		</section>
-		<section class="banda banda-first trabajo__testimonio">
+<!-- 		<section class="banda banda-first trabajo__testimonio">
 			<div class="container">
 				<article>
 					<p>“Working with Ueno has been invaluable to the progression of our brand’s visual identity. The design guidance they provide has exceeded our expectations and gives us an impressive standard that we are proud to uphold.”</p>
@@ -100,8 +100,8 @@
 					</figure>
 				</article>
 			</div>
-		</section>
-		<section class="banda banda-last">
+		</section> -->
+<!-- 		<section class="banda banda-last">
 			<div class="container">
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
 				<div class="index__trabajos">
@@ -128,7 +128,7 @@
 				  <nuxt-link to="/trabajos" class="btn">Ver más proyectos</nuxt-link>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<Contact/>
 		<Foot/>	
 	</main>
@@ -146,7 +146,7 @@ export default {
     Foot
   },
   head: {
-    title: 'Vendexa | WhoKnows - Agencia Digital',
+    title: 'Vendexa Interiores | WhoKnows - Agencia Digital',
     meta: [
       { hid: 'description', name: 'description', content: 'Mezclando raíces históricas con diseño de interiores. Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.' }
     ]

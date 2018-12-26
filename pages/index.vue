@@ -36,11 +36,11 @@
             </nuxt-link>
           </article>
           <article class="caseStudy">
-            <nuxt-link to="/trabajos/enchufarte">
+            <nuxt-link to="">
               <img src="~assets/images/trabajos/enchufarte/mock-small.jpg" alt="">
               <div class="caseStudy__text">
                 <p class="caseStudy__text--h">Enchufarte</p>
-                <span class="caseStudy__text--sub">Ads, Ecommerce</span>
+                <span class="caseStudy__text--sub">Próximamente</span>
               </div>
             </nuxt-link>
           </article>
@@ -78,7 +78,7 @@ export default {
   head: {
     title: 'WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital.' }
+      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' }
     ]
   }
 };

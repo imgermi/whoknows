@@ -66,7 +66,7 @@ export default {
   head: {
     title: 'Contacto | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com' }
+      { hid: 'description', name: 'description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.' }
     ]
   }
 };

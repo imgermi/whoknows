@@ -16,9 +16,9 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">MRU</h5>
             <p class="caseStudy-xl__content--p">Una estrategia de Shopify para una tienda online de Mexico, basada en optimizar ventas y explotar la inversión de Facebook Ads con funnels de conversión.</p>
-            <nuxt-link to="/trabajos/mru" class="btn">Ver caso</nuxt-link>
+            <nuxt-link to="" class="btn disabled">Próximamente</nuxt-link>
           </div>
-          <nuxt-link to="/trabajos/mru" class="caseStudy-xl__img">
+          <nuxt-link to="" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/mru/mock.jpg" alt="">
           </nuxt-link>
         </article>
@@ -36,9 +36,9 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">Enchufarte</h5>
             <p class="caseStudy-xl__content--p">Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.</p>
-            <nuxt-link to="/trabajos/enchufarte" class="btn">Ver caso</nuxt-link>
+            <nuxt-link to="/trabajos/enchufarte" class="btn disabled">Próximamente</nuxt-link>
           </div>
-          <nuxt-link to="/trabajos/enchufarte" class="caseStudy-xl__img">
+          <nuxt-link to="" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/enchufarte/mock.jpg" alt="">
           </nuxt-link>
         </article>
@@ -73,7 +73,7 @@ export default {
   head: {
     title: 'Trabajos | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback.' }
+      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' }
     ]
   }
 };

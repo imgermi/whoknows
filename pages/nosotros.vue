@@ -5,7 +5,7 @@
   		<div class="container">
   			<div class="hero__content">
   				<h1 class="h__hero">¿Qué es WhoKnows?</h1>
-  				<h2 class="sub__hero">Todas las personas necesitan ocupar un <br> espacio en el mundo digital. Nos encanta <br> encontrarlos junto a nuestros clientes.</h2>
+  				<h2 class="sub__hero">Todas las personas necesitan ocupar un <br> espacio en el mundo digital. Nos encanta <br> encontrarlo junto a nuestros clientes.</h2>
   			</div>
   			<article class="hero__img"></article>
   		</div>
@@ -132,7 +132,7 @@ export default {
   head: {
     title: 'Nosotros | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlos junto a nuestros clientes.' }
+      { hid: 'description', name: 'description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.' }
     ]
   }
 };
