@@ -46,7 +46,7 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">Legister</h5>
             <p class="caseStudy-xl__content--p">Una web/mobile app y una campaña de lanzamiento para una fundación Argentina enfocada en el ámbito jurídico.</p>
-            <nuxt-link to="" class="btn disabled">Proximamente</nuxt-link>
+            <nuxt-link to="" class="btn disabled">Próximamente</nuxt-link>
           </div>
           <nuxt-link to="" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/legister/mock.jpg" alt="">
