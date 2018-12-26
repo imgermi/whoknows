@@ -87,10 +87,10 @@
 				<img src="~assets/images/trabajos/vendexa/devices.jpg" alt="Vendexa Interiores">
 			</div>
 		</section>
-<!-- 		<section class="banda banda-first trabajo__testimonio">
+		<section class="banda banda-first trabajo__testimonio">
 			<div class="container">
 				<article>
-					<p>“Working with Ueno has been invaluable to the progression of our brand’s visual identity. The design guidance they provide has exceeded our expectations and gives us an impressive standard that we are proud to uphold.”</p>
+					<p>"Trabajar con WhoKnows fue muy dinámico, lograron entender mi idea y reflejar la identidad de la marca en el producto final. Además, tienen muy buena onda y mucha predisposición para trabajar."</p>
 					<figure>
 						<img src="~assets/images/trabajos/vendexa/testimonio.jpg" alt="Candela Lodeiro">
 						<figcaption>
@@ -100,7 +100,7 @@
 					</figure>
 				</article>
 			</div>
-		</section> -->
+		</section>
 <!-- 		<section class="banda banda-last">
 			<div class="container">
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
