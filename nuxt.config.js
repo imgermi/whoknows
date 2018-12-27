@@ -14,6 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description },
       { name: 'msapplication-TileColor', content: '#2f2a95' },
       { name: 'theme-color', content: '#2f2a95' },
+      { name: 'google-site-verification', content: 'YVLJMl-nT8Qgc9wWA6WTP9xOQRZ5xLgyHcFZetcbn84' },
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: 'favicon/apple-touch-icon.png' },
