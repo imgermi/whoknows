@@ -23,7 +23,10 @@ module.exports = {
       { rel: 'manifest', href: 'favicon/site.webmanifest' },
       { rel: 'mask-icon', href: 'favicon/safari-pinned-tab.svg', color: '#2f2a95' },
       { rel: 'stylesheet', href: 'https://use.typekit.net/meo8vpa.css' }  
-    ]
+    ],
+    script: [
+      { src: 'fs.js' }
+    ],
   },
 
   /*
