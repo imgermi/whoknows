@@ -15,6 +15,11 @@ module.exports = {
       { name: 'msapplication-TileColor', content: '#2f2a95' },
       { name: 'theme-color', content: '#2f2a95' },
       { name: 'google-site-verification', content: 'YVLJMl-nT8Qgc9wWA6WTP9xOQRZ5xLgyHcFZetcbn84' },
+      { property: 'og:title', content: pkg.name },
+      { property: 'og:description', content: pkg.description },
+      { property: 'og:image', content: 'https://thewhoknows.com/_nuxt/img/69a40f7.jpg' },
+      { property: 'og:url', content: 'https://thewhoknows.com/' },
+      { property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: 'favicon/apple-touch-icon.png' },
