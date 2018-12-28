@@ -130,7 +130,9 @@ export default {
   head: {
     title: 'Enchufarte México | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.' }
+      { hid: 'description', name: 'description', content: 'Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.' },
+      { property: 'og:title', content: 'Enchufarte México | WhoKnows - Agencia Digital' },
+      { property: 'og:description', content: 'Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.' },
     ]
   }
 };

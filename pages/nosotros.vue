@@ -132,7 +132,9 @@ export default {
   head: {
     title: 'Nosotros | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.' }
+      { hid: 'description', name: 'description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.' },
+      { property: 'og:title', content: 'Nosotros | WhoKnows - Agencia Digital' },
+      { property: 'og:description', content: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.' },
     ]
   }
 };

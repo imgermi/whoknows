@@ -78,7 +78,9 @@ export default {
   head: {
     title: 'WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' }
+      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' },
+      { property: 'og:title', content: 'WhoKnows - Agencia Digital' },
+      { property: 'og:description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' },
     ]
   }
 };

@@ -73,7 +73,9 @@ export default {
   head: {
     title: 'Trabajos | WhoKnows - Agencia Digital',
     meta: [
-      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' }
+      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' },
+      { property: 'og:title', content: 'Trabajos | WhoKnows - Agencia Digital' },
+      { property: 'og:description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' },
     ]
   }
 };
