@@ -8,7 +8,7 @@
   				<h2 class="sub__hero">Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com</h2>
   			</div>
   			<article class="hero__img">
-          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias">
             <div class="hidden">
               <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </div>
