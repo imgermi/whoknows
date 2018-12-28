@@ -21,7 +21,4 @@
 	main.trabajo {
 		background: #fff;
 	}
-	main.trabajo header nav ul li a:before {
-		background: $orange;
-	}
 </style>
