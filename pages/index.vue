@@ -36,11 +36,11 @@
             </nuxt-link>
           </article>
           <article class="caseStudy">
-            <nuxt-link to="">
+            <nuxt-link to="/trabajos/enchufarte">
               <img src="~assets/images/trabajos/enchufarte/mock-small.jpg" alt="">
               <div class="caseStudy__text">
                 <p class="caseStudy__text--h">Enchufarte</p>
-                <span class="caseStudy__text--sub">Próximamente</span>
+                <span class="caseStudy__text--sub">Ecommerce, Ads</span>
               </div>
             </nuxt-link>
           </article>

@@ -72,7 +72,7 @@
 		<section class="banda banda-first trabajo__testimonio">
 			<div class="container">
 				<article>
-					<p>“Working with Ueno has been invaluable to the progression of our brand’s visual identity. The design guidance they provide has exceeded our expectations and gives us an impressive standard that we are proud to uphold.”</p>
+					<p>“Comenzar a trabajar con Ale y Juan generó un cambio rotundo en ENCHUFARTE y en mi forma de trabajo. Trabajar con ellos en equipo desde un principio fue muy fácil. Su proactividad a la hora de realizarme propuestas y estrategias fue fundamental para hacer crecer las visitas de la web y su visibilidad. Hay un ida y vuelta de opiniones e ideas que sirve mucho para encontrar soluciones. En estos meses, mis millones de consultas y dudas siempre fueron respondidas al instante y siempre con la mejor de las ondas. Gracias a su trabajo, hoy ENCHUFARTE es una e-commerce que se encuentra en crecimiento y con muchos proyectos nuevos para este año.”</p>
 					<figure>
 						<img src="~assets/images/trabajos/enchufarte/testimonio.jpg" alt="Imagen de perfil - Delfina Soldati">
 						<figcaption>
@@ -88,11 +88,12 @@
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
 				<div class="index__trabajos">
 				  <article class="caseStudy">
-				    <nuxt-link to="/trabajos/mru">
+				    <nuxt-link to="">
 				      <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
 				      <div class="caseStudy__text">
 				        <p class="caseStudy__text--h">MRU</p>
-				        <span class="caseStudy__text--sub">Ecommerce, Ads</span>
+				        <!-- <span class="caseStudy__text--sub">Ecommerce, Ads</span> -->
+				        <span class="caseStudy__text--sub">Próximamente</span>
 				      </div>
 				    </nuxt-link>
 				  </article>

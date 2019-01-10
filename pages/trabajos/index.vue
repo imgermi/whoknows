@@ -36,9 +36,9 @@
           <div class="caseStudy-xl__content">
             <h5 class="h__section">Enchufarte</h5>
             <p class="caseStudy-xl__content--p">Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.</p>
-            <nuxt-link to="/trabajos/enchufarte" class="btn disabled">Próximamente</nuxt-link>
+            <nuxt-link to="/trabajos/enchufarte" class="btn">Ver caso</nuxt-link>
           </div>
-          <nuxt-link to="" class="caseStudy-xl__img">
+          <nuxt-link to="/trabajos/enchufarte" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/enchufarte/mock.jpg" alt="">
           </nuxt-link>
         </article>

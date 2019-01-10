@@ -101,7 +101,7 @@
 				</article>
 			</div>
 		</section>
-<!-- 		<section class="banda banda-last">
+		<section class="banda banda-last">
 			<div class="container">
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
 				<div class="index__trabajos">
@@ -115,11 +115,12 @@
 				    </nuxt-link>
 				  </article>
 				  <article class="caseStudy">
-				    <nuxt-link to="/trabajos/mru">
+				    <nuxt-link to="">
 				      <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
 				      <div class="caseStudy__text">
 				        <p class="caseStudy__text--h">MRU</p>
-				        <span class="caseStudy__text--sub">Ecommerce, Ads</span>
+				        <!-- <span class="caseStudy__text--sub">Ecommerce, Ads</span> -->
+				        <span class="caseStudy__text--sub">Próximamente</span>
 				      </div>
 				    </nuxt-link>
 				  </article>
@@ -128,7 +129,7 @@
 				  <nuxt-link to="/trabajos" class="btn">Ver más proyectos</nuxt-link>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<Contact/>
 		<Foot/>	
 	</main>
