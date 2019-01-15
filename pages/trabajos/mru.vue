@@ -73,7 +73,7 @@
 		<section class="trabajo__banner">
 			<img src="~assets/images/trabajos/mru/resultado.jpg" alt="MR.U">
 		</section>
-		<section class="banda banda-first trabajo__testimonio">
+<!-- 		<section class="banda banda-first trabajo__testimonio">
 			<div class="container">
 				<article>
 					<p>“Working with Ueno has been invaluable to the progression of our brand’s visual identity. The design guidance they provide has exceeded our expectations and gives us an impressive standard that we are proud to uphold.”</p>
@@ -86,7 +86,7 @@
 					</figure>
 				</article>
 			</div>
-		</section>
+		</section> -->
 		<section class="banda banda-last">
 			<div class="container">
 				<h3 class="h__section text-center">Proyectos relacionados</h3>
