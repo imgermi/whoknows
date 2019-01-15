@@ -5,7 +5,7 @@
   		<div class="container">
   			<div class="hero__content">
   				<h1 class="h__hero">Dudas. Propuestas. <br> Ejecuciones. Resultados.</h1>
-  				<h2 class="sub__hero">Lo que pasa después de 243.666 mails, varias <br> reuniones y mucho feedback.</h2>
+  				<h2 class="sub__hero">Lo que pasa después de 2350 mails, varias <br> reuniones y mucho feedback.</h2>
   			</div>
   			<article class="hero__img"></article>
   		</div>
@@ -70,13 +70,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'Trabajos | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' },
-      { property: 'og:title', content: 'Trabajos | WhoKnows - Agencia Digital' },
-      { property: 'og:description', content: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.' },
-    ]
+  data () {
+    return {
+      title: 'Trabajos | WhoKnows - Agencia Digital',
+      description: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.description},
+      ]
+    }
   }
 };
 </script>

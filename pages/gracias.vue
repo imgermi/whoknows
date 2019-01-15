@@ -28,11 +28,21 @@ export default {
     Trabajos,
     Foot
   },
-  head: {
-    title: 'Contacto | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.' }
-    ]
+  data () {
+    return {
+      title: 'Contacto | WhoKnows - Agencia Digital',
+      description: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.description},
+      ]
+    }
   }
 };
 </script>

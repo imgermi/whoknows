@@ -23,7 +23,7 @@
 						</ul>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">MR.U nace como una propuesta que busca romper con lo estándar de la ropa interior masculina. Con diseños cool, innovadores, de máxima calidad y el mejor algodón proveniente de Perú y Portugal, MR.U busca darte todos los motivos para que dejes de llevar los pantalones.</p>
+						<p class="trabajo__text--p">MR.U nace como una propuesta que busca romper con el estándar de la ropa interior masculina. Con diseños cool, innovadores, de máxima calidad y el mejor algodón proveniente de Perú y Portugal, MR.U busca darte todos los motivos para que dejes de llevar los pantalones.</p>
 						<p class="trabajo__text--p">¿Y si esto no nos pareciera suficiente y además quisiéramos que los compres a un precio más que razonable?</p>
 					</div>
 				</div>
@@ -54,12 +54,12 @@
 						<h3 class="trabajo__text--h">El proceso y sus resultados</h3>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">Desarrollamos un funnel de Facebook Ads y Google Ads para producir tráfico al sitio y sub-segmentar esos públicos según colecciones de productos y comportamientos digitales. Ya no realizabamos únicamente el A/B testing tradicional, sino que segmentabamos a usuarios que muestren formas de comportamiento para comprar online.</p>
+						<p class="trabajo__text--p">Desarrollamos un funnel de Facebook Ads y Google Ads para producir tráfico al sitio y sub-segmentar esos públicos según colecciones de productos y comportamientos digitales. Ya no realizábamos únicamente el A/B testing tradicional, sino que segmentábamos a usuarios que muestren formas de comportamiento para comprar online.</p>
 						<p class="trabajo__text--p">La principal pregunta fue: “¿Cómo aumentamos la tasa de conversión en un momento del mes donde prácticamente no existe una frecuencia de compra?”</p>
 						<p class="trabajo__text--p">
 							<span>Creamos 3 etapas para los usuarios:</span>
 							<ul>
-								<li>Generar costos por clics bajos para presentar las diferentes colecciones y realizar retargeting hacia los contenidos que la marca iba publicando en sus feeds de Facebook y Instagram.</li>
+								<li>Generar costos por clics bajos para presentar las diferentes colecciones y realizar retargeting hacia los contenidos que la marca iba publicando en sus feeds de Instagram y Facebook.</li>
 								<li>Generar costos bajos por carritos agregados, de forma que los usuarios que ya hayan mostrado interés puedan ser los que luego vean más características y beneficios de los productos.</li>
 								<li>Generar costos bajos de compra, para que únicamente los que hayan mostrado interés previamente reciban un descuento especial para concretar su transacción.</li>
 							</ul>
@@ -131,11 +131,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'MR.U | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: '' }
-    ]
+  data () {
+    return {
+      title: 'MR.U México | WhoKnows - Agencia Digital',
+      description: 'Consolidando potenciales compradores de MR.U a través de diferentes etapas.'
+    }
+  },
+  head () {
+  	return {
+  		title: this.title,
+  		meta: [
+  		  { hid: 'description', name: 'description', content: this.description },
+  		  { property: 'og:title', content: this.title },
+  		  { property: 'og:description', content: this.description},
+  		]
+  	}
   }
 };
 </script>

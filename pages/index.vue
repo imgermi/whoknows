@@ -16,11 +16,11 @@
   		<div class="container">
   			<h3 class="h__section text-center">¿Te identificás con estas preguntas?</h3>
         <ul class="faq">
-          <li>¿No llegas a tu público en internet?</li>
+          <li>¿No llegás a tu público en internet?</li>
           <li>¿Creés que tu sitio web no sirve para nada?</li>
           <li>¿No vendés con tu tienda online?</li>
           <li>¿Necesitás darle vida a una marca?</li>
-          <li>¿No usas un funnel de ventas online? (si no sabés lo que es un funnel, directamente contratanos)</li>
+          <li>¿No usás un funnel de ventas online?</li>
           <li>¿El lanzamiento de tu app te genera estrés e incertidumbre?</li>
         </ul>
         <p class="faq-answer text-center">Nuestros clientes si, y podemos contarte cómo hicimos <br> para ayudarlos a través de diseño y marketing digital.</p>
@@ -75,13 +75,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' },
-      { property: 'og:title', content: 'WhoKnows - Agencia Digital' },
-      { property: 'og:description', content: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com' },
-    ]
+  data () {
+    return {
+      title: 'WhoKnows - Agencia Digital',
+      description: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.description},
+      ]
+    }
   }
 };
 </script>

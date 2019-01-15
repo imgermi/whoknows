@@ -146,11 +146,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'Vendexa Interiores | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Mezclando raíces históricas con diseño de interiores. Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.' }
-    ]
+  data () {
+    return {
+      title: 'Vendexa Interiores | WhoKnows - Agencia Digital',
+      description: 'Mezclando raíces históricas con diseño de interiores. Una tienda online para un emprendimiento familiar de Argentina, enfocado en el diseño de interiores.'
+    }
+  },
+  head () {
+  	return {
+  		title: this.title,
+  		meta: [
+  		  { hid: 'description', name: 'description', content: this.description },
+  		  { property: 'og:title', content: this.title },
+  		  { property: 'og:description', content: this.description},
+  		]
+  	}
   }
 };
 </script>

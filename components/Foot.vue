@@ -5,7 +5,7 @@
 				<nuxt-link to="/">
 					<img src="~assets/images/whoknows-p.svg" alt="WhoKnows">
 				</nuxt-link>
-				<small>2018 - WhoKnows</small>
+				<small>2019 - WhoKnows</small>
 			</article>
 			<article class="contact">
 				<a href="mailto:info@thewhoknows.com" class="email">info@thewhoknows.com</a>

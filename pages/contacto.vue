@@ -22,7 +22,7 @@
               <input type="email" name="email" required>
               <span class="highlight"></span>
               <span class="bar"></span>
-              <label>¿Cómo es tu email?</label>
+              <label>¿Cuál es tu email?</label>
             </div>
             <div class="group">
               <input type="text" name="empresa" required>
@@ -63,13 +63,21 @@ export default {
     Trabajos,
     Foot
   },
-  head: {
-    title: 'Contacto | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.' },
-      { property: 'og:title', content: 'Contacto | WhoKnows - Agencia Digital' },
-      { property: 'og:description', content: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.' },
-    ]
+  data () {
+    return {
+      title: 'Contacto | WhoKnows - Agencia Digital',
+      description: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.description},
+      ]
+    }
   }
 };
 </script>

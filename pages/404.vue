@@ -53,11 +53,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'Error 404 | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Ups, la página que estás buscando no existe. Pero no te asustes, podés volver al inicio y empezar de nuevo. Somos una agencia digital.' }
-    ]
+  data () {
+    return {
+      title: 'Error 404 | WhoKnows - Agencia Digital',
+      description: 'Ups, la página que estás buscando no existe. Pero no te asustes, podés volver al inicio y empezar de nuevo. Somos una agencia digital.'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.description},
+      ]
+    }
   }
 };
 </script>

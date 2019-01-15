@@ -40,9 +40,9 @@
 						<h3 class="trabajo__text--h">El problema</h3>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">Baby Minoli se acercó a nosotros con la necesidad de reformular su estrategia de anuncios para encontrar una estrategia 100% dedicada a generar potenciales compradores en su Tienda online. El principal hallazgo fue que las campañas no seguía una consecución de anuncios para captar a los usuarios de la forma indicada y con el mensaje ideal.</p>
-						<p class="trabajo__text--p">Por eso desarrollamos un funnel que se adapte a un presupuesto simple y que genere un retorno de inversión favorable en el corto plazo.</p>
-						<p class="trabajo__text--p"><strong>Estos eran algunos KPIs de la Tienda antes de comenzar a trabajar con Baby Minoli: </strong></p>
+						<p class="trabajo__text--p">Baby Minoli se acercó a WhoKnows con la necesidad de reformular su estrategia de anuncios para encontrar una estrategia 100% dedicada a generar potenciales compradores en su tienda online. El principal hallazgo fue que las campañas no seguían una consecución de anuncios para captar a los usuarios de la forma indicada y con el mensaje ideal.</p>
+						<p class="trabajo__text--p">Por eso, desarrollamos un funnel que se adapte a un presupuesto simple y que genere un retorno de inversión favorable en el corto plazo.</p>
+						<p class="trabajo__text--p"><strong>Estos eran algunos KPIs de la tienda antes de comenzar a trabajar con Baby Minoli: </strong></p>
 					</div>
 				</div>
 			</div>
@@ -57,8 +57,8 @@
 						<h3 class="trabajo__text--h">Contexto y preguntas</h3>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">Lo principal fue identificar la información disponible: teníamos un Píxel de conversión alimentado con muchísimos tipos de eventos (carritos agregados, checkouts, interacciones y tráfico en la tienda) y una idea definida sobre el comportamiento de los usuarios, pero nos faltaba definir algo más. </p>
-						<p class="trabajo__text--p">La principal pregunta fue: “¿Cómo logramos que la gran tasa de interacción y toda la información recopilada en el Píxel de Conversión generen muchas más ventas a través de los anuncios?”</p>
+						<p class="trabajo__text--p">La tarea principal fue identificar la información disponible: teníamos un Píxel de conversión alimentado con muchísimos tipos de eventos (carritos agregados, checkouts, interacciones y tráfico en la tienda) y una idea definida sobre el comportamiento de los usuarios, pero nos faltaba definir algo más. </p>
+						<p class="trabajo__text--p">Nos basamos en la siguiente pregunta: “¿Cómo logramos que la gran tasa de interacción y toda la información recopilada en el Píxel de conversión generen muchas más ventas a través de los anuncios?”</p>
 					</div>
 				</div>
 			</div>
@@ -76,10 +76,10 @@
 						<p class="trabajo__text--p">Decidimos tomar de referencia a los productos de temporada para realizar embudos de venta centrados en: </p>
 						<p class="trabajo__text--p">
 							<ul>
-								<li>Presentar la marca y dar a conocer la Tienda Online de Baby Minoli</li>
+								<li>Presentar la marca y dar a conocer la tienda online de Baby Minoli</li>
 								<li>Presentar las colecciones y productos destacados de Baby Minoli</li>
-								<li>Generar interacciones en los post de Baby Minoli</li>
-								<li>Generar Test A/B para ver que tipo de campañas generaban mayor retorno de inversión en torno a la información recopilada de todos los datos captados en los puntos anteriores. </li>
+								<li>Generar interacciones en los posts de Baby Minoli</li>
+								<li>Generar test A/B para ver qué tipo de campañas generaban mayor retorno de inversión en torno a la información recopilada de todos los datos captados en los puntos anteriores. </li>
 							</ul>
 						</p>
 					</div>
@@ -96,7 +96,7 @@
 						<h3 class="trabajo__text--h">Resultado</h3>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">En tan solo un mes no solo conseguimos más visitas a la tienda, sino que los usuarios que interactuaron con los contenidos finalmente generaron su carrito y compraron a través de las 3 campañas dedicadas a generar ventas.</p>
+						<p class="trabajo__text--p">En tan solo un mes, no solo logramos generar más visitas a la tienda, sino que los usuarios que interactuaron con los contenidos finalmente llenen su carrito y compren a través de las 3 campañas dedicadas a generar ventas.</p>
 					</div>
 				</div>
 			</div>
@@ -163,13 +163,21 @@ export default {
     Contact,
     Foot
   },
-  head: {
-    title: 'Baby Minoli | WhoKnows - Agencia Digital',
-    meta: [
-      { hid: 'description', name: 'description', content: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.' },
-      { property: 'og:title', content: 'Baby Minoli | WhoKnows - Agencia Digital' },
-      { property: 'og:description', content: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.' },
-    ]
+  data () {
+    return {
+      title: 'Baby Minoli | WhoKnows - Agencia Digital',
+      description: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.'
+    }
+  },
+  head () {
+  	return {
+  		title: this.title,
+  		meta: [
+  		  { hid: 'description', name: 'description', content: this.description },
+  		  { property: 'og:title', content: this.title },
+  		  { property: 'og:description', content: this.description},
+  		]
+  	}
   }
 };
 </script>
