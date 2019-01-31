@@ -17,7 +17,7 @@ module.exports = {
       { name: 'google-site-verification', content: 'YVLJMl-nT8Qgc9wWA6WTP9xOQRZ5xLgyHcFZetcbn84' },
       { property: 'og:title', content: pkg.name },
       { property: 'og:description', content: pkg.description },
-      { property: 'og:image', content: 'https://thewhoknows.com/_nuxt/img/69a40f7.jpg' },
+      { property: 'og:image', content: '/metas/generic.jpg' },
       { property: 'og:url', content: 'https://thewhoknows.com/' },
       { property: 'twitter:card', content: 'summary_large_image' },
     ],

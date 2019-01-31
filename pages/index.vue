@@ -88,6 +88,7 @@ export default {
         { hid: 'description', name: 'description', content: this.description },
         { property: 'og:title', content: this.title },
         { property: 'og:description', content: this.description},
+        { property: 'og:image', content: '/metas/generic.jpg' },
       ]
     }
   }

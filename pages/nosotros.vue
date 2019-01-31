@@ -142,7 +142,7 @@ export default {
         { hid: 'description', name: 'description', content: this.description },
         { property: 'og:title', content: this.title },
         { property: 'og:description', content: this.description},
-        { property: 'og:image', content: 'https://thewhoknows.com/_nuxt/img/d1a125d.jpg' },
+        { property: 'og:url', content: 'https://thewhoknows.com/nosotros' },
       ]
     }
   }
