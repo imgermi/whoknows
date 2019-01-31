@@ -142,7 +142,10 @@ export default {
   		  { property: 'og:title', content: this.title },
   		  { property: 'og:description', content: this.description},
   		  { property: 'og:url', content: 'https://thewhoknows.com/trabajos/enchufarte' },
-  		]
+  		],
+  		link: [
+  			{ rel: 'canonical', href: 'https://thewhoknows.com/trabajos/enchufarte' },
+  		],
   	}
   }
 };

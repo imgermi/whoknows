@@ -89,7 +89,11 @@ export default {
         { property: 'og:title', content: this.title },
         { property: 'og:description', content: this.description},
         { property: 'og:image', content: '/metas/generic.jpg' },
-      ]
+        { property: 'og:url', content: 'https://thewhoknows.com' },
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://thewhoknows.com' },
+      ],
     }
   }
 };

@@ -18,7 +18,6 @@ module.exports = {
       { property: 'og:title', content: pkg.name },
       { property: 'og:description', content: pkg.description },
       { property: 'og:image', content: '/metas/generic.jpg' },
-      { property: 'og:url', content: 'https://thewhoknows.com/' },
       { property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
@@ -27,7 +26,7 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'favicon/favicon-16x16.png' },
       { rel: 'manifest', href: 'favicon/site.webmanifest' },
       { rel: 'mask-icon', href: 'favicon/safari-pinned-tab.svg', color: '#2f2a95' },
-      { rel: 'stylesheet', href: 'https://use.typekit.net/meo8vpa.css' }  
+      { rel: 'stylesheet', href: 'https://use.typekit.net/meo8vpa.css' }
     ],
     script: [
       { src: 'fs.js' }
