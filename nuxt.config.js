@@ -18,6 +18,7 @@ module.exports = {
       { property: 'og:title', content: pkg.name },
       { property: 'og:description', content: pkg.description },
       { property: 'og:image', content: '/metas/generic.jpg' },
+      { name: 'twitter:image', content: '/metas/generic.jpg' },
       { property: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
