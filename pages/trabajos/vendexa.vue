@@ -115,12 +115,11 @@
 				    </nuxt-link>
 				  </article>
 				  <article class="caseStudy">
-				    <nuxt-link to="">
+				    <nuxt-link to="/trabajos/mru">
 				      <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
 				      <div class="caseStudy__text">
 				        <p class="caseStudy__text--h">MRU</p>
-				        <!-- <span class="caseStudy__text--sub">Ecommerce, Ads</span> -->
-				        <span class="caseStudy__text--sub">Próximamente</span>
+				        <span class="caseStudy__text--sub">Ecommerce, Ads</span>
 				      </div>
 				    </nuxt-link>
 				  </article>

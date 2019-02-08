@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="hero__content">
 					<h1 class="h__hero">Baby Minoli</h1>
-					<h2 class="sub__hero">Acercando una marca de ropa infantil Argentina a los usuarios verdaderamente interesados</h2>
+					<h2 class="sub__hero">Acercando una marca argentina de calzado infantil y accesorios a los usuarios verdaderamente interesados</h2>
 				</div>
 			</div>
 		</section>
@@ -24,7 +24,7 @@
 						</ul>
 					</div>
 					<div class="col-6 right">
-						<p class="trabajo__text--p">Baby Minoli nace como una marca para brindar ropa cómoda para venta tanto minorista como mayorista en Argentina y países limítrofes.</p>
+						<p class="trabajo__text--p">Baby Minoli nace como una marca para facilitar la vida de las madres, dedicandose tanto a la venta minorista como mayorista en Argentina y países limítrofes.</p>
 						<p class="trabajo__text--p">No solo brinda productos de calidad para mejorar el día de día de los chicos, sino para también crear una comunidad alrededor de todas las madres que se conectan con Baby Minoli.</p>
 					</div>
 				</div>
@@ -166,7 +166,7 @@ export default {
   data () {
     return {
       title: 'Baby Minoli | WhoKnows - Agencia Digital',
-      description: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.'
+      description: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce. info@thewhoknows.com'
     }
   },
   head () {

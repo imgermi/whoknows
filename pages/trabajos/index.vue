@@ -14,11 +14,21 @@
   		<div class="container">
         <article class="caseStudy-xl">
           <div class="caseStudy-xl__content">
+            <h5 class="h__section">Baby Minoli</h5>
+            <p class="caseStudy-xl__content--p">Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.</p>
+            <nuxt-link to="/trabajos/baby-minoli" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/trabajos/baby-minoli" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/baby-minoli/mock.jpg" alt="">
+          </nuxt-link>
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
             <h5 class="h__section">MRU</h5>
             <p class="caseStudy-xl__content--p">Una estrategia de Shopify para una tienda online de Mexico, basada en optimizar ventas y explotar la inversión de Facebook Ads con funnels de conversión.</p>
-            <nuxt-link to="" class="btn disabled">Próximamente</nuxt-link>
+            <nuxt-link to="trabajos/mru" class="btn">Ver caso</nuxt-link>
           </div>
-          <nuxt-link to="" class="caseStudy-xl__img">
+          <nuxt-link to="trabajos/mru" class="caseStudy-xl__img">
             <img src="~assets/images/trabajos/mru/mock.jpg" alt="">
           </nuxt-link>
         </article>
