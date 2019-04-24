@@ -30,7 +30,7 @@ export default {
   },
   data () {
     return {
-      title: 'Contacto | WhoKnows - Agencia Digital',
+      title: 'Contacto | WhoKnows Agency - Agencia Digital',
       description: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.'
     }
   },
