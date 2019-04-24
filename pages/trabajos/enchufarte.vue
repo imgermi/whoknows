@@ -129,7 +129,7 @@ export default {
   },
   data () {
     return {
-      title: 'Enchufarte México | WhoKnows - Agencia Digital',
+      title: 'Enchufarte México | WhoKnows Agency - Agencia Digital',
       description: 'Enchufando al arte mexicano a través de Ads y estrategias de Ecommerce.'
     }
   },
