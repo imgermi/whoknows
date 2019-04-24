@@ -55,7 +55,7 @@ export default {
   },
   data () {
     return {
-      title: 'Error 404 | WhoKnows - Agencia Digital',
+      title: 'Error 404 | WhoKnows Agency - Agencia Digital',
       description: 'Ups, la página que estás buscando no existe. Pero no te asustes, podés volver al inicio y empezar de nuevo. Somos una agencia digital.'
     }
   },
