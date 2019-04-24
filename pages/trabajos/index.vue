@@ -82,7 +82,7 @@ export default {
   },
   data () {
     return {
-      title: 'Trabajos | WhoKnows - Agencia Digital',
+      title: 'Trabajos | WhoKnows Agency - Agencia Digital',
       description: 'Dudas. Propuestas. Ejecuciones. Resultados. Lo que pasa después de 243.666 mails, varias reuniones y mucho feedback. Somos una agencia digital.'
     }
   },
