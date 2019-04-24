@@ -133,7 +133,7 @@ export default {
   },
   data () {
     return {
-      title: 'MR.U México | WhoKnows - Agencia Digital',
+      title: 'MR.U México | WhoKnows Agency - Agencia Digital',
       description: 'Consolidando potenciales compradores de MR.U a través de diferentes etapas.'
     }
   },
