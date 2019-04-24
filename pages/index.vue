@@ -77,7 +77,7 @@ export default {
   },
   data () {
     return {
-      title: 'WhoKnows - Agencia Digital',
+      title: 'WhoKnows Agency - Agencia Digital',
       description: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com'
     }
   },
