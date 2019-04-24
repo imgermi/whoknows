@@ -131,7 +131,7 @@ export default {
   },
   data () {
     return {
-      title: 'Nosotros | WhoKnows - Agencia Digital',
+      title: 'Nosotros | WhoKnows Agency - Agencia Digital',
       description: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.'
     }
   },
