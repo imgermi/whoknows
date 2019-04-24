@@ -165,7 +165,7 @@ export default {
   },
   data () {
     return {
-      title: 'Baby Minoli | WhoKnows - Agencia Digital',
+      title: 'Baby Minoli | WhoKnows Agency - Agencia Digital',
       description: 'Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce. info@thewhoknows.com'
     }
   },
