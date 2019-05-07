@@ -71,10 +71,12 @@
 				<p>Esto último se da porque, además de todo lo mencionado, usamos el documento compartido para hacer gran parte de las entregas.</p>
 				<p>¿Por qué? Porque evita los mails eternos e interminables. Dropbox Paper tiene un sistema de notificaciones que te envía un mail cada vez que alguien hace algo en el documento.</p>
 				<p>Esto es 10 veces mejor que enviarse opiniones y feedback por mail. No te lo recomiendo.</p>
+				<img src="~/assets/images/blog/agencia-remota/dropbox-paper-coments.jpg" alt="Dropbox Paper - Client Onboarding">
 				<h3 id="loom">Pero en este documento el cliente no te ve la cara ¿no es poco humano?</h3>
 				<p>Muy cierto. Para esto usamos <a href="https://loom.com" target="_blank">Loom</a>. Y lo usamos MUCHÍSIMO.</p>
 				<p>Loom es una extensión de Chrome que te permite hacer un video muy simple: captura tu pantalla (ese es el foco del video), y en el margen inferior del video agrega un video pequeño tipo avatar de vos mientras te filma la webcam ¿No es genial?</p>
 				<p>Muy rápidamente y de manera espontanea, podés hacerle un reporte a un cliente para explicarle algo mientras le podés mostrar ese reporte de manera visual (acordate que el video es una captura de tu pantalla).</p>
+				<img src="~/assets/images/blog/agencia-remota/loom.jpg" alt="Loom - Quick screen capturing video">
 				<p>El highlight de Loom: ni bien terminás de grabar el video, te lo guarda en un link en la nube.</p>
 				<p>En WhoKnows tenemos adicción infinita por Loom. Lo usamos para todo. Para pitchear un proyecto cuando hacemos sales, para hacer una propuesta (todas las propuestas empiezan con un Loom), para hacer una entrega o un reporte, y hasta para explicarnos o mostrarnos cosas de manera interna.</p>
 				<p><i>Dicen las malas lenguas que una vez Germi, el director de Diseño, le hizo un Loom a Alex, el director de Marketing, para mostrarle cómo hacer una factura E en el sistema de Afip. Épico.</i></p>
