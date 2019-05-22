@@ -5,7 +5,7 @@
 			<div class="container">
 				<div class="hero__content">
 					<h1 class="h__hero">Una agencia de diseño y marketing 100% remota en 2019</h1>
-					<h2 class="sub__hero">1/5/19 - Por <a href="https://instagram.com/imgermi" target="_blank">Germi</a></h2>
+					<h2 class="sub__hero">22/5/19 - Por <a href="https://instagram.com/imgermi" target="_blank">Germi</a></h2>
 				</div>
 			</div>
 		</section>
@@ -139,6 +139,8 @@ export default {
         { property: 'og:title', content: this.title },
         { property: 'og:description', content: this.description},
         { property: 'og:url', content: 'https://thewhoknows.com/blog/agencia-remota-2019-diseno-marketing' },
+        { property: 'og:image', content: 'https://www.gramto.com/app/assets/uploads/158683/zobesoxo-5ce55fb4c8ebf.jpg' },
+        { name: 'twitter:image', content: 'https://www.gramto.com/app/assets/uploads/158683/zobesoxo-5ce55fb4c8ebf.jpg' },
       ],
       link: [
         { rel: 'canonical', href: 'https://thewhoknows.com/blog/agencia-remota-2019-diseno-marketing' },
