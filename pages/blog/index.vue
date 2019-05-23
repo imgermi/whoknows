@@ -5,7 +5,7 @@
   		<div class="container">
   			<div class="hero__content">
   				<h1 class="h__hero">Blog</h1>
-  				<h2 class="sub__hero">Nos apasiona documentar nuestro recorrido <br> y proceso de trabajo. Si estás acá por la receta <br> mágica para tener una agencia creativa exitosa, <br> lamento decepcionarte: no la escribimos aún</h2>
+  				<h2 class="sub__hero">Nos apasiona documentar nuestro recorrido <br> y proceso de trabajo. Si estás acá por la receta <br> mágica para tener una agencia creativa exitosa, <br> lamento decepcionarte: no la escribimos aún.</h2>
   			</div>
   			<article class="hero__img"></article>
   		</div>
@@ -40,7 +40,7 @@ export default {
   data () {
     return {
       title: 'Blog | WhoKnows Agency - Agencia Digital',
-      description: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.'
+      description: 'Nos apasiona documentar nuestro recorrido y proceso de trabajo. Si estás acá por la receta mágica para tener una agencia creativa exitosa, lamento decepcionarte: no la escribimos aún.'
     }
   },
   head () {
