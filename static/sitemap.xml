@@ -9,38 +9,53 @@
 
 <url>
   <loc>https://thewhoknows.com/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/nosotros/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/trabajos/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thewhoknows.com/blog/</loc>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/contacto/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/trabajos/vendexa/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/trabajos/enchufarte/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thewhoknows.com/trabajos/baby-minoli/</loc>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://thewhoknows.com/trabajos/mru/</loc>
-  <lastmod>2018-12-27T14:47:15+00:00</lastmod>
-  <priority>0.51</priority>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thewhoknows.com/blog/agencia-remota-2019-diseno-marketing/</loc>
+  <lastmod>2019-05-23T01:25:42+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
