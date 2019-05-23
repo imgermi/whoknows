@@ -19,6 +19,9 @@
 						<nuxt-link to="/trabajos">Trabajos</nuxt-link>
 					</li>
 					<li>
+						<nuxt-link to="/blog">Blog</nuxt-link>
+					</li>
+					<li>
 						<nuxt-link to="/contacto">Contacto</nuxt-link>
 					</li>
 				</ul>
