@@ -7,16 +7,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    // title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      // { hid: 'description', name: 'description', content: pkg.description },
       { name: 'msapplication-TileColor', content: '#2f2a95' },
       { name: 'theme-color', content: '#2f2a95' },
       { name: 'google-site-verification', content: 'YVLJMl-nT8Qgc9wWA6WTP9xOQRZ5xLgyHcFZetcbn84' },
-      { property: 'og:title', content: pkg.name },
-      { property: 'og:description', content: pkg.description },
+      // { property: 'og:title', content: pkg.name },
+      // { property: 'og:description', content: pkg.description },
       { property: 'og:image', content: '/metas/generic.jpg' },
       { name: 'twitter:image', content: '/metas/generic.jpg' },
       { property: 'twitter:card', content: 'summary_large_image' },
