@@ -39,8 +39,8 @@ export default {
   },
   data () {
     return {
-      title: 'Blog | WhoKnows Agency - Agencia Digital',
-      description: 'Nos apasiona documentar nuestro recorrido y proceso de trabajo. Si estás acá por la receta mágica para tener una agencia creativa exitosa, lamento decepcionarte: no la escribimos aún.'
+      title: 'Blog | WhoKnows Agency - Agencia de Diseño y Marketing',
+      description: 'Nos apasiona documentar nuestro recorrido y proceso de trabajo. Si estás acá por la receta mágica para tener una agencia creativa exitosa, lamento decepcionarte: no la escribimos aún. Somos una agencia digital de diseño y marketing.'
     }
   },
   head () {

@@ -77,8 +77,8 @@ export default {
   },
   data () {
     return {
-      title: 'WhoKnows Agency - Agencia Digital',
-      description: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital. info@thewhoknows.com'
+      title: 'WhoKnows Agency - Agencia de Diseño y Marketing',
+      description: 'Identificamos lo que te separa de tus clientes. Somos una agencia digital de diseño y marketing con enfoque en productos digitales, ads & social media.'
     }
   },
   head () {

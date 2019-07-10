@@ -30,8 +30,8 @@ export default {
   },
   data () {
     return {
-      title: 'Contacto | WhoKnows Agency - Agencia Digital',
-      description: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital.'
+      title: 'Contacto | WhoKnows Agency - Agencia de Diseño y Marketing',
+      description: 'Completá el formulario y nos pondremos en contacto. Si preferís, nos podés escribir a info@thewhoknows.com / Somos una agencia digital de diseño y marketing con enfoque en productos digitales, ads & social media.'
     }
   },
   head () {

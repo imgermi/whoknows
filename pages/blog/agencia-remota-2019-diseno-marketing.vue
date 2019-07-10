@@ -127,7 +127,7 @@ export default {
   },
   data () {
     return {
-      title: 'Una agencia de diseño y marketing 100% remota en 2019 | WhoKnows Agency - Agencia Digital',
+      title: 'Una agencia de diseño y marketing 100% remota en 2019 | WhoKnows Agency',
       description: 'El home office es un concepto que ya dejó de ser popular, porque vino para quedarse. Cada vez más empresas le ofrecen a su equipo la posibilidad de trabajar al menos una vez por semana desde casa y, como era de esperarse, esto no deja de ser relevante para el equipo.'
     }
   },

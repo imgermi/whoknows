@@ -131,8 +131,8 @@ export default {
   },
   data () {
     return {
-      title: 'Nosotros | WhoKnows Agency - Agencia Digital',
-      description: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes.'
+      title: 'Nosotros | WhoKnows Agency - Agencia de Diseño y Marketing',
+      description: 'Todas las personas necesitan ocupar un espacio en el mundo digital. Nos encanta encontrarlo junto a nuestros clientes. Agencia digital de diseño y marketing con enfoque en productos digitales, ads & social media.'
     }
   },
   head () {

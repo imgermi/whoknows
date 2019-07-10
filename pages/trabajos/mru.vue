@@ -133,8 +133,8 @@ export default {
   },
   data () {
     return {
-      title: 'MR.U México | WhoKnows Agency - Agencia Digital',
-      description: 'Consolidando potenciales compradores de MR.U a través de diferentes etapas.'
+      title: 'MR.U México | WhoKnows Agency - Agencia de Diseño y Marketing',
+      description: 'Consolidando potenciales compradores de MR.U a través de diferentes etapas. Somos una agencia digital de diseño y marketing con enfoque en productos digitales, ads & social media.'
     }
   },
   head () {
