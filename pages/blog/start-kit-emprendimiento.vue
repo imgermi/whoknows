@@ -47,7 +47,7 @@ export default {
   data () {
     return {
       title: 'Start Kit para empezar con tu emprendimiento | WhoKnows Agency',
-      description: 'El home office es un concepto que ya dejó de ser popular, porque vino para quedarse. Cada vez más empresas le ofrecen a su equipo la posibilidad de trabajar al menos una vez por semana desde casa y, como era de esperarse, esto no deja de ser relevante para el equipo.'
+      description: 'Un listado de recursos a partir de la charla que dimos en el Congreso Latinoamericano de Diseño, en la Universidad de Palermo. Por Alejandro Aboy y Juan Germano.'
     }
   },
   head () {
