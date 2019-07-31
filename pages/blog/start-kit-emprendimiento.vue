@@ -13,8 +13,9 @@
 			<div class="container">
 				<h3>Presentación</h3>
 				<p>Para ver la presentación que proyectamos durante la charla, <a href="https://www.dropbox.com/s/ult3rd8ird0acfd/start_kit_emprendimiento_WK.pdf?dl=0" target="_blank">hacé click aquí</a></p>
-				<h3>Libros recomendados</h3>
+				<h3>Libros/recursos recomendados</h3>
 				<ul>
+					<li><a href="https://www.garyvaynerchuk.com/the-garyvee-content-strategy-how-to-grow-and-distribute-your-brands-social-media-content/" target="_blank">The GaryVee Content Strategy: How to Grow and Distribute Your Brand’s Social Media Content</a></li>
 					<li><a href="https://www.amazon.com/Messy-Middle-Finding-Through-Hardest/dp/0735218072" target="_blank">The Messy Middle - Scott Belsky (fundador de Behance)</a></li>
 					<li><a href="https://www.amazon.com/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA/ref=sr_1_1?crid=3LBPD0EDE2AD7&keywords=the+hard+thing+about+hard+things&qid=1564573473&s=books&sprefix=the+hard+thing+about%2Cstripbooks-intl-ship%2C286&sr=1-1" target="_blank">The Hard Thing About Hard Things: Building a business when there are no easy answers - Ben Horowitz</a></li>
 					<li><a href="https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers-ebook/dp/B06XFJ2JGR/ref=sr_1_1?keywords=storybrand+brandscript&qid=1564573505&s=books&sr=1-1" target="_blank">Building a StoryBrand: Clarify Your Message So Customers Will Listen - Donald Miller</a></li>
