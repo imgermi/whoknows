@@ -14,6 +14,16 @@
   		<div class="container">
         <article class="caseStudy-xl">
           <div class="caseStudy-xl__content">
+            <h5 class="h__section">CambioAR</h5>
+            <p class="caseStudy-xl__content--p">Cómo ayudamos a una fintech emergente a crear un sitio para comprar y vender dólares.</p>
+            <nuxt-link to="/trabajos/cambioar" class="btn">Ver caso</nuxt-link>
+          </div>
+          <nuxt-link to="/trabajos/cambioar" class="caseStudy-xl__img">
+            <img src="~assets/images/trabajos/cambioar/cambioar-comprar-dolares-preview.jpg" alt="CambioAR - cambioar.com MockUp Laptop">
+          </nuxt-link>
+        </article>
+        <article class="caseStudy-xl">
+          <div class="caseStudy-xl__content">
             <h5 class="h__section">Baby Minoli</h5>
             <p class="caseStudy-xl__content--p">Conectando a una marca de ropa para niños con sus usuarios en diferentes etapas a través de Ads y estrategias de Ecommerce.</p>
             <nuxt-link to="/trabajos/baby-minoli" class="btn">Ver caso</nuxt-link>
