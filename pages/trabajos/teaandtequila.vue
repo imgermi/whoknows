@@ -28,7 +28,7 @@
 		</section>
 		<section class="trabajo__banner">
 			<img src="~assets/images/trabajos/teaandtequila/teaandtequilatrading_women.jpg" alt="Tea & Tequila Trading - Women working">
-			<p class="trabajo__banner--caption">Las fundadoras de Tea&Tequila trabajando junto a una comunidad de mujeres</p>
+			<p class="trabajo__banner--caption">Las fundadoras de Tea&Tequila trabajando junto a una comunidad de artesanas</p>
 		</section>
 		<section class="banda banda-first banda-last trabajo__text">
 			<div class="container">
