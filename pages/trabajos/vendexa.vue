@@ -115,11 +115,11 @@
 				    </nuxt-link>
 				  </article>
 				  <article class="caseStudy">
-				    <nuxt-link to="/trabajos/mru">
-				      <img src="~assets/images/trabajos/mru/mock-small.jpg" alt="">
+				    <nuxt-link to="/trabajos/cambioar">
+				      <img src="~assets/images/trabajos/cambioar/cambioar-comprar-dolares-preview-small.jpg" alt="">
 				      <div class="caseStudy__text">
-				        <p class="caseStudy__text--h">MRU</p>
-				        <span class="caseStudy__text--sub">Ecommerce, Ads</span>
+				        <p class="caseStudy__text--h">CambioAR</p>
+				        <span class="caseStudy__text--sub">UX/UI, UI Development</span>
 				      </div>
 				    </nuxt-link>
 				  </article>
