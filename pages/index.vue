@@ -27,20 +27,20 @@
         <h3 class="h__section text-center">Un caso, una solución</h3>
         <div class="index__trabajos">
           <article class="caseStudy">
-            <nuxt-link to="/trabajos/vendexa">
-              <img src="~assets/images/trabajos/vendexa/mock-small.jpg" alt="">
+            <nuxt-link to="/trabajos/cambioar">
+              <img src="~assets/images/trabajos/cambioar/cambioar-comprar-dolares-preview-small.jpg" alt="">
               <div class="caseStudy__text">
-                <p class="caseStudy__text--h">Vendexa</p>
-                <span class="caseStudy__text--sub">Diseño, Ecommerce</span>
+                <p class="caseStudy__text--h">CambioAR</p>
+                <span class="caseStudy__text--sub">UX/UI, UI Development</span>
               </div>
             </nuxt-link>
           </article>
           <article class="caseStudy">
-            <nuxt-link to="/trabajos/enchufarte">
-              <img src="~assets/images/trabajos/enchufarte/mock-small.jpg" alt="">
+            <nuxt-link to="/trabajos/teaandtequila">
+              <img src="~assets/images/trabajos/teaandtequila/teaandtequilatrading_preview-small.jpg" alt="">
               <div class="caseStudy__text">
-                <p class="caseStudy__text--h">Enchufarte</p>
-                <span class="caseStudy__text--sub">Ecommerce, Ads</span>
+                <p class="caseStudy__text--h">Tea&Tequila Trading</p>
+                <span class="caseStudy__text--sub">Facebooks Ads</span>
               </div>
             </nuxt-link>
           </article>
