@@ -47,8 +47,8 @@ export default {
   },
   data () {
     return {
-      title: 'Start Kit para empezar con tu emprendimiento | WhoKnows Agency',
-      description: 'Un listado de recursos a partir de la charla que dimos en el Congreso Latinoamericano de Diseño, en la Universidad de Palermo. Por Alejandro Aboy y Juan Germano.'
+      title: 'Framework Creativo | WhoKnows Agency',
+      description: 'Cómo entender a un cliente que no sabe lo que quiere: recursos de la charla que dimos en la Universidad Católica Argentina, en Octubre 2019. Por Alejandro Aboy y Juan Germano.'
     }
   },
   head () {
@@ -58,12 +58,12 @@ export default {
         { hid: 'description', name: 'description', content: this.description },
         { property: 'og:title', content: this.title },
         { property: 'og:description', content: this.description},
-        { property: 'og:url', content: 'https://thewhoknows.com/blog/start-kit-emprendimiento' },
+        { property: 'og:url', content: 'https://thewhoknows.com/blog/framework-creativo-cliente-no-sabe-lo-que-quiere' },
         { property: 'og:image', content: 'https://www.gramto.com/app/assets/uploads/158683/zobesoxo-5ce55fb4c8ebf.jpg' },
         { name: 'twitter:image', content: 'https://www.gramto.com/app/assets/uploads/158683/zobesoxo-5ce55fb4c8ebf.jpg' },
       ],
       link: [
-        { rel: 'canonical', href: 'https://thewhoknows.com/blog/start-kit-emprendimiento' },
+        { rel: 'canonical', href: 'https://thewhoknows.com/blog/framework-creativo-cliente-no-sabe-lo-que-quiere' },
       ],
     }
   }
